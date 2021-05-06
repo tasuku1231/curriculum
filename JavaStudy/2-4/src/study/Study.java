@@ -1,6 +1,5 @@
 package study;
 
-import constants.FruitsConstants;
 //②Fruits.javaをインポートしなさい。
 import fruits.Fruits;
 /**
@@ -19,7 +18,6 @@ public class Study {
          *     printFruitsの引数にはFruitsConstantsに指定されている定数を設定してください。
          */
 
-		Fruits.printFruits(FruitsConstants.FRUITS_LEMON_04, FruitsConstants.FRUITS_COUNT_20);
-
+		Fruits.printFruits("remonn", 0);
     }
 }
