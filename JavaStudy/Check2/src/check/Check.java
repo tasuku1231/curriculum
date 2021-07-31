@@ -8,20 +8,19 @@ public class Check {
 	*なお、変数のアクセス修飾子は「private」とする。
 	*/
 
-	private String firstName = "伊藤";
-	private String lastName = "救";
+	private static String firstName = "伊藤";
+	private static String lastName = "救";
 	/*課題②【Check.java】にてfirstNameとlastNameを引数で受け取って、
 	*連結して表示させるメソッド「printName」を作成しなさい。
 	*作成した関数のアクセス修飾子は「private」とする。
 	*/
-	private void printName(){
+	private static void printName(String firstName, String lastName){
 		System.out.println("printNameメソッド → " + firstName + lastName);
 	}
 
 	public static void main(String[] args) {
 
-		Check name = new Check();
-		name.printName();
+		Check.printName(firstName, lastName);
 
     	/*課題③
          *【Check.java】にてPetクラスとRobotPetクラスをインスタンス化して、下記の完成イメージを出力させなさい。

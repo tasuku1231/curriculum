@@ -90,7 +90,6 @@ public class EmployeeService {
  String tmpComment = resultSet.getString("comment");
  String tmpLoginTime = resultSet.getString("login_time");
 
- System.out.println(tmpName);
 
   // 問⑧ EmployeeBeanに取得したデータを入れてください。
  employeeDate = new EmployeeBean();
