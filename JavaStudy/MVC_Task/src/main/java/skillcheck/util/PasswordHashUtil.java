@@ -8,6 +8,10 @@ import javax.crypto.SecretKey;
 import javax.crypto.SecretKeyFactory;
 import javax.crypto.spec.PBEKeySpec;
 
+import skillcheck.logger.Logger;
+
+
+
 /**
  * パスワードハッシュユーティリティ
  *

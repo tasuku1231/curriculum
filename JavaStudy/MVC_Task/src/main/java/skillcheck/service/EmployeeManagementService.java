@@ -1,11 +1,7 @@
 package skillcheck.service;
 
-import java.sql.Connection;
-import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
-
 import java.sql.SQLException;
-import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -20,7 +16,6 @@ import skillcheck.constant.ConstSQL;
 import skillcheck.dao.EmployeeDao;
 import skillcheck.exception.MVCException;
 import skillcheck.logger.Logger;
-import SC5Exception
 /**
  * 社員情報管理サービス
  * <pre>
@@ -220,7 +215,7 @@ public final class EmployeeManagementService extends BaseService implements Empl
                     // [ここへ記述]
 
 
-                    ResultSet resultSet = preparedStatement.executeQuery();
+                    resultSet = preparedStatement.executeQuery();
 
                     Logger.log(new Throwable(), "SQL: " +  this.preparedStatement.toString());
                 }

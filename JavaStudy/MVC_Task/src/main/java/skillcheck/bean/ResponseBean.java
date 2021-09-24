@@ -9,7 +9,7 @@ import java.util.List;
  * @since 2019/01/02
  */
 public final class ResponseBean {
-
+//aaaaaa
     /** ・メッセージ */
     private String _message;
 
